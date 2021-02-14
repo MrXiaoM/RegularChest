@@ -1,0 +1,8 @@
+name: RegularChest
+main: top.mrxiaom.regularchest.RegularChest
+version: 1.0
+author: 'LazyCat https://space.bilibili.com/330771760'
+commands:
+  regularchest:
+    description: awa
+    aliases: [rc]

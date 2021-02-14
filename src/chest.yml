@@ -1,0 +1,88 @@
+# 作者: 懒怠的小猫
+# Github: MrXiaoM
+
+# 箱子的内部名称，给插件用于判断是哪个箱子
+# 你可以复制多份以做更多的计时箱子
+example:
+  # 执行时间的星期
+  # weeks 的值为各星期的英文或者它们的前三位字母缩写
+  # 并且不区分大小写，比如 Monday、mon、tuesday、Tue 都可以
+  weeks:
+    - 'Wednesday'
+  # 执行时间的小时
+  hour: 12
+  # 执行时间的分钟
+  minute: 0
+  # 执行时间的秒
+  second: 0
+  # 箱子所在世界
+  chestWorld: 'world'
+  # 箱子所在坐标
+  chestX: 0
+  chestY: 63
+  chestZ: 0
+  # 执行之后
+  console-commands:
+    - 'rc send &7[&bRegularChest&7] &b箱子刷新了'
+  #箱子内物品
+  itemStacks:
+    #示例物品1
+    exampleItem:
+      # 放在箱子里第几格(从0数起)
+      slot: 0
+      # 物品数量
+      amount: 1
+      # 物品材质 (必须英文ID)
+      material: 'STONE'
+      # 物品名 (填写none不设置)
+      displayName: NONE
+      # 物品Lore
+      lores:
+        - '&a这是一行Lore'
+        - '&bxwx'
+      # 物品附魔，配置类型是字符串列表，格式是 附魔:等级
+      # 附魔到网站 https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html  上去查
+      # 注: 网站上的附魔是最新版本的，可能不适合你的服务器版本
+      # 例子: 
+      # enchs:
+      #   - 'DAMAGE_ALL:1'
+      enchs: []
+      
+      # nbt数据，格式是 key:value
+      # 例子如下:
+      # nbt-string:
+      #   - 'mykey:awa'
+      # 本意是为高清修复自定义模型而做，大部分人用不到
+      nbt-string: []
+      nbt-int: []
+    #示例物品2
+    exampleItem2:
+      # 放在箱子里第几格(从0数起)
+      slot: 1
+      # 物品数量
+      amount: 16
+      # 物品材质 (必须英文ID)
+      material: 'DIAMOND'
+      # 物品名 (填写none不设置)
+      displayName: '&b普通的钻石'
+      # 物品Lore
+      lores:
+        - '&b这只是一颗普通的钻石'
+        - '&eqwq'
+      # 物品附魔，配置类型是字符串列表，格式是 附魔:等级
+      # 附魔到网站 https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html  上去查
+      # 注: 网站上的附魔是最新版本的，可能不适合你的服务器版本
+      # 例子: 
+      # enchs:
+      #   - 'DAMAGE_ALL:1'
+      enchs: 
+        - 'DAMAGE_ALL:1'
+      
+      # nbt数据，格式是 key:value
+      # 例子如下:
+      # nbt-string:
+      #   - 'mykey:awa'
+      # 本意是为高清修复自定义模型而做，大部分人用不到
+      nbt-string: []
+      nbt-int: []
+      

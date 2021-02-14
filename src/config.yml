@@ -1,0 +1,14 @@
+# 作者: 懒怠的小猫
+# Github: MrXiaoM
+
+# 是否开启没卵用的调试模式 (目前废弃)
+debug: false
+
+# 文本
+string-sunday: '周末'
+string-monday: '周一'
+string-tuesday: '周二'
+string-wednesday: '周三'
+string-thursday: '周四'
+string-friday: '周五'
+string-saturday: '周六'
