@@ -1,5 +1,6 @@
 # RegularChest
 一个 Minecraft 1.12.2 的 Bukkit/Spgiot 插件，定时生成箱子  
+Libs: Spigot 1.12.2 (1.12_R1)  
   
 命令:   
 /rc info [ID] - 查看箱子详细  
